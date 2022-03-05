@@ -4,12 +4,6 @@
   font-family: "Torus Notched";
   src: url("./font/torus.ttf");
 }
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #2f363e;
-}
+
 
 /*# sourceMappingURL=style.css.map */
