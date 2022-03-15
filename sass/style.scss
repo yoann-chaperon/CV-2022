@@ -21,3 +21,12 @@ body {
     background: $color1;
     //font-family: "Poppins", sans-serif;
 }
+
+footer {
+    display: flex;
+    height: 20vh;
+    width: 10vh;
+    .footer__lien {
+        height: 20px;
+    }
+}
