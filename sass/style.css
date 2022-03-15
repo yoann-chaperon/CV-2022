@@ -144,4 +144,21 @@ body {
   min-height: 100vh;
   background: #2f363e;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20vh;
+  width: 10vh;
+}
+
+footer a {
+  height: 20px;
+  background: #bb0000;
+}
+
+.footer__lien__fb img {
+  height: 20px;
+}
 /*# sourceMappingURL=style.css.map */
