@@ -146,6 +146,33 @@ body {
   color: #fff;
 }
 
+.header__banner {
+  display: block;
+  background: url(../img/moi_noir.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 30rem;
+  background-color: brown;
+  z-index: 100;
+}
+
+.header__banner__title {
+  font-size: 2rem;
+  background: burlywood;
+}
+
+.header__banner__paragraph {
+  background: forestgreen;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: honeydew;
+}
+
 footer {
   display: block;
   -webkit-box-pack: center;
@@ -192,6 +219,6 @@ a img {
 a img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 /*# sourceMappingURL=style.css.map */

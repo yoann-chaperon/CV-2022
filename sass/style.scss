@@ -22,10 +22,37 @@ body {
     color: $color3;
     //font-family: "Poppins", sans-serif;
 }
+//-------------- BANNER -------------------//
+.header__banner {
+    display: block;
+    background: url(../img/moi_noir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 30rem;
+    background-color: brown;
+    z-index: 100;
+    &__title {
+        font-size: 2rem;
+        background: burlywood;
+    }
+    &__paragraph {
+        background: forestgreen;
+        
+    }
+}
+.header__nav {
+    display: flex;
+    background: honeydew;
+}
+//-------------- MAIN   -------------------//
+
+// ------------- FOOTER -------------------//
 footer {
     display: block;
     justify-content: center;
     align-items: center;
+
     & .footer__container__title {
         text-align: center;
         color: black;
@@ -50,6 +77,6 @@ a img {
     transition: all.8s ease;
     &:hover {
         transform: scale(1.2);
-        border-radius: .8rem;
+        border-radius: 0.8rem;
     }
 }
