@@ -19,17 +19,37 @@ body {
     align-items: center;
     min-height: 100vh;
     background: $color1;
+    color: $color3;
     //font-family: "Poppins", sans-serif;
 }
 footer {
-    display: flex;
-    height: 20vh;
-    width: 10vh;
-    a {
-        height: 20px;
-        background: $youtube;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    & .footer__container__title {
+        text-align: center;
+        color: black;
     }
 }
-.footer__lien__fb img {
-    height: 20px;
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 20vh;
+    width: 80vw;
+    overflow: hidden;
+    &:hover {
+        overflow: visible;
+    }
+}
+a img {
+    height: 10rem;
+    background: white;
+    transition: all.8s ease;
+    &:hover {
+        transform: scale(1.2);
+        border-radius: .8rem;
+    }
 }
